@@ -1,0 +1,116 @@
+body{
+	background : rgb(25,10,0);
+	color : rgb(245,245,245);
+	font-size : 25px;
+}
+/*  Header  */
+header{
+	position : fixed;
+	top : 0; left : 0; right : 0;
+	height : 100px;
+	background : rgb(10, 10, 10);
+}
+header form input{
+	height : 30px;
+	width : 250px;
+	position : absolute;
+	top : 30px;
+	right : 180px;
+	border : none;
+	border-radius : 2px;
+	padding-left : 10px;
+	transition : width 0.5s;
+}
+header form input:focus{
+	width : 500px;
+}
+.logo{
+	margin-top : 15px;
+	margin-left : 40px;
+	background : green;
+}
+h1{
+	display : inline;
+	margin-left : 20px;
+	position : relative;
+	top : 25px;
+	font-size : 40px;
+}
+header ul{
+	display : inline;
+	position : relative;
+	top : 20px;
+	left : 75px;
+}
+header li{
+	display : inline;
+	padding : 30px 50px 38px 50px;
+	transition : background 0.3s;
+}
+header li:hover{
+	background : rgba(0,0,0,0.5);
+	padding-bottom : 35px;
+	border-bottom : solid 3px rgb(245,245,245);
+}
+
+/*  SlideShow  */
+.slider{
+	position : absolute;
+	top : 100px; left : 0; right : 0; bottom : 0;
+	background : none;
+	overflow : hidden;
+}
+
+.slide{
+	width : 400%;
+	background : none;
+	height : 100%;
+	position : absolute;
+	top : 0;
+	left :0;
+	animation: slidanim 20s infinite;
+}
+.slider figure{
+	margin : 0;
+}
+.slider img{
+	width : 100vw;
+	height : 100%;
+	opacity : 1;
+	transition : opacity 0.3s; 
+}
+.slider img:hover{
+	opacity : 0.5;
+}
+
+@-webkit-keyframes slidanim {
+	0%, 20%, 100%	{ left: 0 }
+	25%, 45%		{ left: -100% }
+	50%, 70%		{ left: -200% }
+	75%, 95%		{ left: -300% }
+}
+@-moz-keyframes slidanim {
+	0%, 20%, 100%	{ left: 0 }
+	25%, 45%		{ left: -100% }
+	50%, 70%		{ left: -200% }
+	75%, 95%		{ left: -300% }
+}
+@keyframes slidanim {
+	0%, 20%, 100%	{ left: 0 }
+	25%, 45%		{ left: -100% }
+	50%, 70%		{ left: -200% }
+	75%, 95%		{ left: -300% }
+}
+i{
+	transform : scale(1.5);
+}
+.market{
+	position : absolute;
+	top : 35px;
+	right : 50px;
+}
+.search{
+	position : absolute;
+	top : 35px;
+	right : 125px;
+}
