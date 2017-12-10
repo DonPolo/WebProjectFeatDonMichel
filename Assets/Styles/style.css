@@ -41,6 +41,10 @@ h1{
 	font-size : 40px;
 	font-family: 'Righteous', cursive;
 }
+a{
+	text-decoration : none;
+	color : rgb(245,245,245);
+}
 header > ul{
 	display : inline;
 	margin: 3px 0 0 125px;
@@ -75,7 +79,7 @@ header ul li ul li{
 	color : rgb(245,245,245);
 }
 header ul li ul li:hover{
-	color: orange;
+	color: rgb(255,180,0);
 	background: rgba(25,25,25,0.5);
 }
 
