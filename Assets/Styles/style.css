@@ -12,7 +12,11 @@ header{
 	background : rgb(10, 10, 10);
 	z-index: 10;
 }
-header form input{
+header a{
+	color : inherit;
+	text-decoration: none;
+}
+header form .searchBar{
 	height : 25px;
 	width : 250px;
 	position : absolute;
@@ -23,7 +27,7 @@ header form input{
 	padding-left : 10px;
 	transition : width 0.5s;
 }
-header form input:focus{
+header form .searchBar:focus{
 	width : 400px;
 }
 .logo{
@@ -41,20 +45,16 @@ h1{
 	font-size : 40px;
 	font-family: 'Righteous', cursive;
 }
-a{
-	text-decoration : none;
-	color : rgb(245,245,245);
-}
 header > ul{
 	display : inline;
 	margin: 3px 0 0 125px;
 }
-header > ul > li{
+header > ul li{
 	display : inline;
 	padding : 23px 50px 18px 50px;
 	transition : background 0.3s;
 }
-header > ul > li:hover{
+header > ul li:hover{
 	background : rgba(0,0,0,0.5);
 	padding-bottom : 21px;
 	border-bottom : solid 3px rgb(245,245,245);
@@ -81,6 +81,30 @@ header ul li ul li{
 header ul li ul li:hover{
 	color: rgb(255,180,0);
 	background: rgba(25,25,25,0.5);
+	padding-bottom : 10px;
+	border-bottom : none;
+}
+header ul li ul a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+i{
+	transform : scale(1.2);
+}
+.market{
+	position : absolute;
+	top : 20px;
+	right : 50px;
+}
+.search{
+	position : absolute;
+	top : 20px;
+	right : 115px;
+	transform : scale(1.2);
+	background: none;
+	border: none;
+	color: inherit;
 }
 
 /*  SlideShow  */
@@ -106,6 +130,7 @@ header ul li ul li:hover{
 	padding: 0;
 	height: 100%;
 	position: relative;
+	width: 100vw;
 	left: 0;
 }
 .slider img{
@@ -148,16 +173,15 @@ header ul li ul li:hover{
 	50%, 70%		{ left: -200% }
 	75%, 95%		{ left: -300% }
 }
-i{
-	transform : scale(1.2);
-}
-.market{
-	position : absolute;
-	top : 20px;
-	right : 50px;
-}
-.search{
-	position : absolute;
-	top : 20px;
-	right : 115px;
-}
+
+/*  Footer  */
+/*footer{
+	position: absolute;
+	top: 100vh;
+	height: 100px;
+	right: 0;
+	margin-top: 10px;
+	box-shadow: 0 0 5px 0 black;
+	background: #252525;
+	left: 0;
+}*/
