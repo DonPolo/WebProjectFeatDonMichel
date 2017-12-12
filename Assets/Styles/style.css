@@ -56,7 +56,7 @@ header > ul li{
 }
 header > ul li:hover{
 	background : rgba(0,0,0,0.5);
-	padding-bottom : 21px;
+	padding-bottom : 24px;
 	border-bottom : solid 3px rgb(245,245,245);
 }
 header > ul > li:hover ul{
@@ -65,12 +65,14 @@ header > ul > li:hover ul{
 header > ul > li ul{
 	background: black;
 	position: absolute;
-	top: 70px;
+	top: 67px;
 	left: 0px;
 	right: 0;
 	padding :0;
 	display: none;
 	text-align: center;
+	z-index : -5;
+	opacity : 0.99;
 }
 header ul li ul li{
 	display: inline-block;
