@@ -36,6 +36,12 @@ header form .searchBar:focus{
 	top : 15px; left : 40px;
 	height: 40px;
 }
+.logo::after{
+	content: "toto";
+	background-image: url("../Images/chapeau.png");
+	width: 40px;
+	height: 40px;
+}
 h1{
 	display : inline;
 	margin-left : 20px;
