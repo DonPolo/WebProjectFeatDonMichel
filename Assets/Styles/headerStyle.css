@@ -74,19 +74,23 @@ header > ul li:hover{
 	border-bottom : solid 3px rgb(245,245,245);
 }
 header > ul > li:hover ul{
-	display: block;
+	height: 270px;
+	opacity: 1;
+	transform: scale(1,1);
 }
 header > ul > li ul{
 	background: black;
 	position: absolute;
 	top: 67px;
+	opacity: 0;
 	left: 0px;
 	right: 0;
 	padding :0;
-	display: none;
+	height: 0;
+	transform: scale(0,1);
 	text-align: center;
 	z-index : -5;
-	opacity : 0.99;
+	transition : opacity 0.3s, height 0.3s;
 }
 header ul li ul li{
 	display: inline-block;
