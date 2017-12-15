@@ -1,0 +1,121 @@
+.body
+{
+	margin : 0px;
+	padding : 0px;
+	background-color : rgb(30,30,30);
+}
+
+section
+{
+	margin-top : 70px;
+}
+
+.cover
+{
+	width : 50%;
+	padding : 0;
+}
+
+article
+{
+	display : inline-block;
+	width : 49%;
+	margin-left : 0.25%;
+	vertical-align : top;
+	text-align : center;
+	
+}
+
+h2
+{
+	display : inline-block;
+	font-size : 35px;
+	width : 100%;
+	text-align : center;
+	vertical-align : top;
+	margin : 15px 0px 15px 0px;
+}
+
+
+p
+{
+	text-align : justify;
+	margin : 15px;
+}
+
+iframe
+{
+	display : block;
+	border-radius: 25px;
+	margin : auto;
+	margin-top : 25px;
+}
+
+button
+{
+	display: block;
+	color : rgb(245,245,245);
+	font-size : 20px;
+	background-color : rgb(255,180,0);
+	border: solid 2px rgb(255,180,0);
+	border-radius: 30px;
+	width : 300px;
+	height : 50px;
+	margin : auto;
+	margin-top : 25px;
+	transition:background 0.2s;
+}
+
+button:hover
+{
+	background : none;
+}
+
+section div
+{
+	margin : 25px 0 25px 0;
+	background-color : rgb(10, 10, 10);
+	border-radius : 15px;
+	width : 85%;
+	margin : auto;
+	margin-top : 25px;
+}
+
+section img
+{
+	width : 20%;
+	padding-top : 25px;
+	padding-bottom : 25px;
+}
+
+.all
+{
+	display : none;
+	position : fixed;
+	top : 0;
+	bottom : 0;
+	left : 0;
+	right : 0;
+	background : rgba(20,20,20,0.8);
+	z-index : 20;
+	text-align : center;
+}
+
+.all:target
+{
+	display : block;
+}
+
+.all img
+{
+	height : 80%;
+	position : absolute;
+	top : 50%;
+	left : 50%;
+	transform : translate(-50%,-50%);
+}
+
+s
+{
+	color : red;
+}

@@ -45,18 +45,6 @@
 	cursor: pointer;
 }
 
-@-webkit-keyframes slidanim {
-	0%, 20%, 100%	{ left: 0 }
-	25%, 45%		{ left: -100% }
-	50%, 70%		{ left: -200% }
-	75%, 95%		{ left: -300% }
-}
-@-moz-keyframes slidanim {
-	0%, 20%, 100%	{ left: 0 }
-	25%, 45%		{ left: -100% }
-	50%, 70%		{ left: -200% }
-	75%, 95%		{ left: -300% }
-}
 @keyframes slidanim {
 	0%, 20%, 100%	{ left: 0 }
 	25%, 45%		{ left: -100% }
