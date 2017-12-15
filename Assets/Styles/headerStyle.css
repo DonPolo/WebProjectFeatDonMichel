@@ -30,17 +30,25 @@ header form .searchBar{
 header form .searchBar:focus{
 	width : 400px;
 }
+.index div{
+	position: absolute;
+	height: 70px;
+	width: 250px;
+	top: 0;
+	left: 0;
+	background-image: url(http://gifgifs.com/animations/nature/snow/White_snow.gif);
+}
 .logo{
 	display : inline;
 	position : absolute;
 	top : 15px; left : 40px;
 	height: 40px;
 }
-.logo::after{
-	content: "toto";
-	background-image: url("../Images/chapeau.png");
+.noel{
+	position: absolute;
 	width: 40px;
-	height: 40px;
+	transform: rotate(-35deg);
+	left: 20px;
 }
 h1{
 	display : inline;
