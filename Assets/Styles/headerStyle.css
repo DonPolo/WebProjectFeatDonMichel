@@ -99,7 +99,7 @@ header ul li ul li{
 	color : rgb(245,245,245);
 }
 header ul li ul li:hover{
-	color: rgb(255,180,0);
+	color: rgb(235,130,0);
 	background: rgba(25,25,25,0.5);
 	padding-bottom : 10px;
 	border-bottom : none;
