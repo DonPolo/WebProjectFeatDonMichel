@@ -5,37 +5,8 @@ section{
 	left: 0;
 	right: 0;
 }
-.carre{
-	margin: 20px;
-	display: inline-block;
-	width: 300px;
-	height: 400px;
-	
-	box-shadow: none;
-	transition: all 0.3s;
-}
-.carre:hover{
-	opacity: 0.8;
-	box-shadow: 0 0 5px 0 black;
-}
-.carre img{
-	margin-top: 5%;
-	margin-bottom: 5%;
-	width: 90%;
-	border-radius: 50%;
-	box-shadow: 0 0 5px 0 black;
-}
-.carre h2{
-	margin: 0;
-	padding: 0;
-	font-size: 20px;
-	margin: 0 5px 0 5px;
-}
-.carre h3{
-	color: red;
-}
 .circle{
-	margin: 20px;
+	margin: 50px;
 	display: inline-block;
 	width: 400px;
 	height: 400px;
@@ -87,6 +58,7 @@ section{
 p{
 	text-align: left;
 	margin-left: 20px;
+	margin-top: 30px;
 	background-color: rgb(235,130,0);
 	border-radius: 30px;
 	padding: 10px;
