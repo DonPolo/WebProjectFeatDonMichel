@@ -21,7 +21,7 @@
 	padding: 0;
 	height: 100%;
 	position: relative;
-	width: 100vw;
+	width: 25%;
 	left: 0;
 }
 .slider img{
@@ -53,7 +53,7 @@
 }
 
 /*  Footer  */
-/*footer{
+footer{
 	position: absolute;
 	top: 100vh;
 	height: 100px;
@@ -62,4 +62,4 @@
 	box-shadow: 0 0 5px 0 black;
 	background: #252525;
 	left: 0;
-}*/
+}

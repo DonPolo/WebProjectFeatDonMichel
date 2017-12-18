@@ -30,14 +30,6 @@ header form .searchBar{
 header form .searchBar:focus{
 	width : 400px;
 }
-.index div{
-	position: absolute;
-	height: 70px;
-	width: 250px;
-	top: 0;
-	left: 0;
-	background-image: url(http://gifgifs.com/animations/nature/snow/White_snow.gif);
-}
 .logo{
 	display : inline;
 	position : absolute;
@@ -59,26 +51,29 @@ h1{
 	font-size : 40px;
 	font-family: 'Righteous', cursive;
 }
-header > ul{
+.fa.iconMenu{
+	display : none;
+}
+header span > ul{
 	display : inline;
 	margin: 3px 0 0 125px;
 }
-header > ul li{
+header span > ul li{
 	display : inline;
 	padding : 23px 50px 18px 50px;
 	transition : background 0.3s;
 }
-header > ul li:hover{
+header span > ul li:hover{
 	background : rgba(0,0,0,0.5);
 	padding-bottom : 24px;
 	border-bottom : solid 3px rgb(245,245,245);
 }
-header > ul > li:hover ul{
+header span > ul > li:hover ul{
 	height: 270px;
 	opacity: 1;
 	transform: scale(1,1);
 }
-header > ul > li ul{
+header span > ul > li ul{
 	background: black;
 	position: absolute;
 	top: 67px;
