@@ -51,7 +51,7 @@ h1{
 	font-size : 40px;
 	font-family: 'Righteous', cursive;
 }
-.fa.iconMenu{
+.fa.iconMenu, .fa.iconClose{
 	display : none;
 }
 header span > ul{
@@ -120,4 +120,11 @@ i{
 	background: none;
 	border: none;
 	color: inherit;
+}
+header li input{
+	color : rgb(245,245,245);
+	font-size : 20px;
+	border: none;
+	background: none;
+	font-weight : normal;
 }

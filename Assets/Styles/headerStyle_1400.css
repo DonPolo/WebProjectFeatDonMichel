@@ -50,13 +50,23 @@ h1{
 	font-family: 'Righteous', cursive;
 }
 header span{
-	display : none;
 	background : black;
 	position : absolute;
 	top : 70px;
+	right : 0;
+	width : 0;
+	transform : scale(0,1);
+	transition : width 0.5s;
+}
+header:target span{
+	transform : scale(1,1);
 	width : 100%;
-	overflow : auto;
-	z-index : 5;
+}
+header:target .iconClose{
+	display : block;
+}
+header:target .iconMenu{
+	display : none;
 }
 header span > ul{
 	display : block;
@@ -74,8 +84,8 @@ header span > ul li{
 header span > ul li:hover{
 	background : rgba(0,0,0,0.5);
 }
-header span > ul > li:hover ul{
-	height: 770px;
+header span > ul > li input:focus + ul{
+	height: 800px;
 	opacity: 1;
 	transform: scale(1,1);
 }
@@ -110,13 +120,16 @@ header ul li ul a{
 i{
 	transform : scale(1.2);
 }
-.iconMenu{
+.iconMenu, .iconClose{
 	position : absolute;
-	top : 25px;
-	right : 50px;
+	top : 0px;
+	right : 16px;
+	text-align : center;
+	vertical-align : center;
+	padding : 25px;
 }
-.iconMenu:hover + span{
-	display : block;
+.fa.iconClose{
+	display : none;
 }
 .marketBut{
 	text-align : right;
@@ -130,4 +143,11 @@ i{
 	border: none;
 	color: inherit;
 	margin : 10px 0 10px 0;
+}
+header li input{
+	color : rgb(245,245,245);
+	font-size : 20px;
+	border: none;
+	background: none;
+	font-weight : normal;
 }
