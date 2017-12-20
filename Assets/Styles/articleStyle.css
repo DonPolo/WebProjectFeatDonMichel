@@ -72,7 +72,7 @@ button:hover
 	background : none;
 }
 
-section div
+section article div
 {
 	margin : 25px 0 25px 0;
 	background-color : rgb(10, 10, 10);
@@ -82,7 +82,7 @@ section div
 	margin-top : 25px;
 }
 
-section img
+section article img
 {
 	width : 20%;
 	padding : 25px;
@@ -144,4 +144,35 @@ article ul
 article ul li
 {
 	margin : 0px;
+}
+h4{
+	margin : 30px;
+	border-bottom : solid 2px white;
+	display : inline;
+	padding : 5px;
+	margin-left : 5%;
+}
+section span input{
+	margin : auto;
+	margin-top : 15px;
+	display : block;
+	height : 50px;
+	width : 90%;
+	margin-bottom : 10px;
+	border : none;
+	border-radius : 2px;
+	padding-left : 10px;
+}
+section span div{
+	width : 90%;
+	margin : auto;
+	height : 100px;
+	margin-top : 2px;
+	background : #000;
+}
+section span div img{
+	height : 80px;
+	width : 80px;
+	border-radius : 10px;
+	margin : 10px;
 }
