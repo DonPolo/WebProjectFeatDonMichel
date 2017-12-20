@@ -41,6 +41,7 @@ p
 {
 	text-align : justify;
 	margin : 15px;
+	font-size : 15px;
 }
 
 iframe
@@ -59,9 +60,9 @@ button
 	background-color : rgb(235,130,0);
 	border: solid 2px rgb(235,130,0);
 	border-radius: 30px;
-	width : 300px;
+	width : 90px;
 	height : 50px;
-	margin : auto;
+	margin : 10px;
 	margin-top : 25px;
 	transition:background 0.2s;
 }
@@ -76,7 +77,7 @@ section div
 	margin : 25px 0 25px 0;
 	background-color : rgb(10, 10, 10);
 	border-radius : 15px;
-	width : 85%;
+	width : 75%;
 	margin : auto;
 	margin-top : 25px;
 }
@@ -84,8 +85,7 @@ section div
 section img
 {
 	width : 20%;
-	padding-top : 25px;
-	padding-bottom : 25px;
+	padding : 25px;
 }
 
 .all
@@ -115,7 +115,33 @@ section img
 	transform : translate(-50%,-50%);
 }
 
-s
+article ul li, article ul li p, article ul li s, article ul li button
 {
-	color : red;
+	display : inline;
+}
+
+.price
+{
+	background : rgb(235,130,0);
+	border: solid 2px rgb(235,130,0);
+	border-radius: 30px;
+	width : 85px;
+	height : 100px;
+	padding : 12px;
+	margin : 10px;
+}
+
+.price s p, .price p
+{
+	font-size : 20px;
+}
+
+article ul
+{
+	padding-left: 0;
+}
+
+article ul li
+{
+	margin : 0px;
 }
