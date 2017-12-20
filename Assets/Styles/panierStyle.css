@@ -1,0 +1,91 @@
+.body{
+	margin : 0;
+	background : rgb(30,30,30);
+}
+
+section{
+	margin-top : 100px;
+	width : 100%;
+}
+
+section span
+{
+	display : inline-block;
+	text-align: center;
+}
+
+.info{
+	width : 59.5%;
+}
+
+section input, section select, section label{
+	display : block;
+}
+
+section form{
+	width: 260px;
+	margin : auto;
+	text-align: left;
+}
+
+section input, section select{
+	height : 25px;
+	width : 250px;
+	border : none;
+	border-radius : 2px;
+	padding-left : 10px;
+	margin : auto;
+}
+
+section select{
+	width : 260px;
+}
+
+section label{
+	padding-top : 15px;
+}
+
+button
+{
+	display: inline-block;
+	color : rgb(245,245,245);
+	font-size : 20px;
+	background-color : rgb(235,130,0);
+	border: solid 2px rgb(235,130,0);
+	border-radius: 30px;
+	width : 76px;
+	height : 50px;
+	margin : 10px 10px 10px 0;
+	margin-top : 25px;
+	transition:background 0.2s;
+}
+
+button:hover
+{
+	background : none;
+}
+
+div
+{
+	width : 450px;
+	height : 200px;
+	background-color : rgb(10, 10, 10);
+	float : right;
+}
+
+div img{
+	height : 150px;
+	border-radius: 50%;
+	margin : 25px;
+}
+.article h4, h3{
+	display : inline-block;
+}
+
+.article{
+	width : 29.5%;
+	height: 100px;
+	vertical-align : top;
+	float : right;
+	text-align : left;
+}

@@ -7,7 +7,9 @@
 		<meta charset="utf-8"/>
 		<title>Projet Paul Moine - Son-Michel Dinh</title>
 		<link rel="stylesheet" href="./Assets/Styles/articleStyle.css"/>
-		<link rel="stylesheet" href="./Assets/Styles/headerStyle.css"/>
+		<link rel="stylesheet" media="screen and (min-width:1401px)" href="./Assets/Styles/headerStyle.css"/>
+		<link rel="stylesheet" media="screen and (max-width:1400px)" href="./Assets/Styles/headerStyle_1400.css">
+		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet"> 
@@ -17,44 +19,49 @@
 	</head>
 	
 	<body class="body">
-		<header>
+		<header id="menu">
 			<a href="index.html" class="index">
 				<img class="logo" src="./Assets/Images/Logo.png" alt="logo"/>
 				<img class="noel" src="./Assets/Images/chapeau.png" alt="bonnetNoel"/>
 				<h1>Dusk</h1>
 			</a>
-			<ul>
-				<li>
-					Catégories
-					<ul>
-						<li><a href="construction.html">Rock</a></li>
-						<li><a href="construction.html">Pop</a></li>
-						<li><a href="construction.html">Rap</a></li>
-						<li><a href="construction.html">Electro</a></li>
-						<li><a href="construction.html">Funk</a></li>
-						<li><a href="construction.html">Jazz</a></li>
-						<li><a href="construction.html">Soul</a></li>
-						<li><a href="construction.html">Clasique</a></li>
-						<li><a href="construction.html">Dubstep</a></li>
-						<li><a href="construction.html">RnB</a></li>
-						<li><a href="construction.html">Metal</a></li>
-						<li><a href="construction.html">Dance</a></li>
-						<li><a href="construction.html">Beat</a></li>
-						<li><a href="construction.html">Soundtrack</a></li>
-						<li><a href="construction.html">K-Pop</a></li>
-						<li><a href="construction.html">J-Pop</a></li>
-						<li><a href="construction.html">Variété Française</a></li>
-						<li><a href="construction.html">Variété Internationale</a></li>
-					</ul>
-				</li>
-				<li><a href="quiSommesNous.html">Qui sommes-nous ?</a></li>
-			</ul>
-			<form action="recherche.html" method="get">
-				<input type="text" name="q" class="searchBar" required/>
-				<input class="fa search" type="submit" value="&#xf002;">
-			</form>
+			<a href="#menu"><i class="iconMenu fa">&#xf0c9;</i></a>
+			<a href="#"><i class="iconClose fa">&#xf00d;</i></a>
+			<span>
+				<ul>
+					<li>
+						<input type="button" value="Catégories"/>
+						<ul>
+							<li><a href="construction.html">Rock</a></li>
+							<li><a href="construction.html">Pop</a></li>
+							<li><a href="construction.html">Rap</a></li>
+							<li><a href="construction.html">Electro</a></li>
+							<li><a href="construction.html">Funk</a></li>
+							<li><a href="construction.html">Jazz</a></li>
+							<li><a href="construction.html">Soul</a></li>
+							<li><a href="construction.html">Clasique</a></li>
+							<li><a href="construction.html">Dubstep</a></li>
+							<li><a href="construction.html">RnB</a></li>
+							<li><a href="construction.html">Metal</a></li>
+							<li><a href="construction.html">Dance</a></li>
+							<li><a href="construction.html">Beat</a></li>
+							<li><a href="construction.html">Soundtrack</a></li>
+							<li><a href="construction.html">K-Pop</a></li>
+							<li><a href="construction.html">J-Pop</a></li>
+							<li><a href="construction.html">Variété Française</a></li>
+							<li><a href="construction.html">Variété Internationale</a></li>
+						</ul>
+					</li>
+					<li><a href="quiSommesNous.html">Qui sommes-nous ?</a></li>
+				</ul>
+				<form action="recherche.html" method="get">
+					<input type="text" name="q" class="searchBar" required/>
+					<input class="fa search" type="submit" value="&#xf002;">
+				</form>
 			
-			<a href="panier.html"><i class="fa market">&#xf290;</i></a>
+				<a href="panier.html" class="marketBut"><i class="fa market">&#xf290;</i></a>
+			</span>
+			
 		</header>
 		<section>
 			<img alt="disc" src="./Assets/Images/Cover/jul.jpg" class="cover"/>
