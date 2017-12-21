@@ -17,6 +17,12 @@ footer a
 	color : rgb(245,245,245);
 	text-decoration : none;
 	margin : 20px;
+	transition:color 0.2s;
+}
+
+footer a:hover
+{
+	color : rgb(235,130,0);
 }
 
 footer div
