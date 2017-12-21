@@ -51,15 +51,3 @@
 	50%, 70%		{ left: -200% }
 	75%, 95%		{ left: -300% }
 }
-
-/*  Footer  */
-footer{
-	position: absolute;
-	top: 100vh;
-	height: 100px;
-	right: 0;
-	margin-top: 10px;
-	box-shadow: 0 0 5px 0 black;
-	background: #252525;
-	left: 0;
-}

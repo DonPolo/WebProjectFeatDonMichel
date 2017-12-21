@@ -168,7 +168,7 @@ section span div{
 	margin : auto;
 	height : 100px;
 	margin-top : 2px;
-	background : #000;
+	background : rgb(12, 10, 10);
 }
 section span div img{
 	height : 80px;
