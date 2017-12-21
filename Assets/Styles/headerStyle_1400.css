@@ -98,7 +98,7 @@ header span > ul > li ul{
 	height: 0;
 	transform: scale(0,1);
 	text-align: center;
-	transition-delay : 0.1s;
+	transition-delay : 0.2s;
 }
 header ul li ul li{
 	display: block;
