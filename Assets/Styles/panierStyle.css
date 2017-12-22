@@ -103,17 +103,16 @@ h5{
 }
 .article{
 	width : 29.5%;
-	height: 100px;
 	vertical-align : top;
-	float : right;
 	text-align : left;
+	margin-left : 80px;
 }
 .article span{
 	width : 350px;
 	vertical-align : top;
 	text-align : left;
 }
-.left, .right{
+.left{
 	position : fixed;
 	background : rgb(25,10,0);
 	top : 0;bottom : 0;
@@ -123,9 +122,5 @@ h5{
 .left{
 	float : left;
 	left : 0;
-}
-.right{
-	right : 0;
-	float : right;
 	z-index : -10;
 }
