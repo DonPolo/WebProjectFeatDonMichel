@@ -1,5 +1,4 @@
 .body{
-	margin : 0;
 	background : rgb(30,30,30);
 }
 
@@ -117,10 +116,34 @@ h5{
 	background : rgb(25,10,0);
 	top : 0;bottom : 0;
 	width : 15%;
-	background : ;
-}
-.left{
 	float : left;
 	left : 0;
 	z-index : -10;
+}
+
+@media screen and (max-width:1350px){
+	.info, .article{width: 85%; margin-left: 15%;}
+	section form{
+		margin:auto;
+	}
+	.article div{ float: none; margin:auto; margin-bottom: 2px;}
+	h5{margin:0; padding: 25px;}
+	section h2{width: 100%; margin-left: 0;}
+}
+@media screen and (max-width:850px){
+	.info, .article{width: 100%; margin-left: 0;}
+	.left{display: none;}
+}
+@media screen and (max-width:625px){
+	.article div{width: 100%;}
+	.article div img{height: 100px; margin-top: 50px;}
+	.article span{width:60%;}
+}
+@media screen and (max-width:430px){
+	.article span{width:35%;}
+	.article span h4, .article span h3{margin: 5px 0 5px 0;}
+	.article div:last-child{height: 100px;}
+	section input,section select{width: 200px;}
+	.article span h3{overflow: hidden; max-width: 100%;}
+	section label{margin-left: 25px;}
 }
