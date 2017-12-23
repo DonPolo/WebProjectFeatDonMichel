@@ -2,8 +2,6 @@ section{
 	text-align: center;
 	position: relative;
 	top: 70px;
-	left: 0;
-	right: 0;
 }
 .circle{
 	margin: 50px;
@@ -63,7 +61,7 @@ p{
 	background-color: rgb(235,130,0);
 	border-radius: 30px;
 	padding: 10px;
-	width : 20%;
+	width : 230px;
 }
 .circle span{
 	display: block;
@@ -81,4 +79,15 @@ p{
 }
 .circle:hover span{
 	opacity: 1;
+}
+
+@media screen and (max-width:500px){
+	.circle{
+		width: 95vw;
+		margin: 50px 0 50px 0;
+		height : 95vw;
+	}
+	p{
+		margin-left: 2.5vw;
+	}
 }
