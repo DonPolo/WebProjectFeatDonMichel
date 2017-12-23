@@ -60,3 +60,7 @@ footer div
 {
 	margin-right: none;
 }
+
+@media screen and (orientation : portrait){
+	footer.footAbs{position: relative; top: 75px;}
+}
