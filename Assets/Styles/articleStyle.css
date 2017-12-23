@@ -176,3 +176,9 @@ section span div img{
 	border-radius : 10px;
 	margin : 10px;
 }
+
+@media screen and (max-width:750px){
+	.cover, article{ width:100%; }
+	section article img{ width: 30%; }
+	.all img{width: 90%; height: auto;}
+}
