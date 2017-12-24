@@ -48,11 +48,12 @@ section{
 	font-size: 20px;
 	display: inline;
 }
-.circle h4{
+.circle s em{
 	color:  rgb(245,245,245);
 	display: inline;
 	margin: 10px;
 	font-size: 20px;
+	font-style: normal;
 }
 p{
 	text-align: left;
@@ -62,23 +63,6 @@ p{
 	border-radius: 30px;
 	padding: 10px;
 	width : 230px;
-}
-.circle span{
-	display: block;
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-	border: solid 25px black;
-	background : white;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	opacity: 0;
-	transform: translate(-50%,-50%);
-	transition: all 0.3s;
-}
-.circle:hover span{
-	opacity: 1;
 }
 
 @media screen and (max-width:500px){

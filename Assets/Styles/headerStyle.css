@@ -55,27 +55,27 @@ h1{
 .fa.iconMenu, .fa.iconClose{
 	display : none;
 }
-header span > ul{
+header .divMenu > ul{
 	display : inline;
 	margin: 3px 0 0 125px;
 }
-header span > ul li{
+header .divMenu > ul li{
 	display : inline;
 	padding : 23px 50px 18px 50px;
 	transition : background 0.3s;
 	transition:color 0.2s;
 }
-header span > ul li:hover{
+header .divMenu > ul li:hover{
 	background : rgba(0,0,0,0.5);
 	padding-bottom : 24px;
 	border-bottom : solid 3px rgb(245,245,245);
 }
-header span > ul > li:hover ul{
+header .divMenu > ul > li:hover ul{
 	height: 270px;
 	opacity: 1;
 	transform: scale(1,1);
 }
-header span > ul > li ul{
+header .divMenu > ul > li ul{
 	background: black;
 	position: absolute;
 	top: 67px;

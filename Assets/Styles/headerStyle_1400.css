@@ -50,7 +50,7 @@ h1{
 	font-size : 40px;
 	font-family: 'Righteous', cursive;
 }
-header span{
+header .divMenu{
 	background : black;
 	position : absolute;
 	top : 70px;
@@ -59,7 +59,7 @@ header span{
 	transform : scale(0,1);
 	transition : width 0.5s;
 }
-header:target span{
+header:target .divMenu{
 	transform : scale(1,1);
 	width : 100%;
 }
@@ -69,28 +69,28 @@ header:target .iconClose{
 header:target .iconMenu{
 	display : none;
 }
-header span > ul{
+header .divMenu > ul{
 	display : block;
 	margin:5px 0 0 0;
 	padding : 0;
 	width : 100%;
 }
-header span > ul li{
+header .divMenu > ul li{
 	display : block;
 	width : 95%;
 	text-align : right;
 	padding : 10px 0 10px 0;
 	transition : background 0.3s;
 }
-header span > ul li:hover{
+header .divMenu > ul li:hover{
 	background : rgba(0,0,0,0.5);
 }
-header span > ul > li input:focus + ul{
+header .divMenu > ul > li input:focus + ul{
 	height: 780px;
 	opacity: 1;
 	transform: scale(1,1);
 }
-header span > ul > li ul{
+header .divMenu > ul > li ul{
 	background: black;
 	opacity: 0;
 	left: 0;
