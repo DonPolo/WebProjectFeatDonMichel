@@ -121,6 +121,12 @@ h5{
 	z-index : -10;
 }
 
+a
+{
+	color : rgb(245,245,245);
+	text-decoration : none;
+}
+
 @media screen and (max-width:1350px){
 	.info, .article{width: 85%; margin-left: 15%;}
 	.section form{
