@@ -2,12 +2,22 @@
 {
 	margin : 0px;
 	padding : 0px;
-	background-color : rgb(30,30,30);
+	/*background-color : rgb(30,30,30);*/
 }
 
 .section
 {
 	margin-top : 70px;
+}
+
+.top{
+	background-color : rgb(30,30,30);
+	position : absolute;
+	margin : auto;
+	top : 70px;
+	width : 100%;
+	height : 101.35%;
+	z-index : -10;
 }
 
 .cover
@@ -23,13 +33,13 @@ article
 	margin-left : 0.25%;
 	vertical-align : top;
 	text-align : center;
-	
 }
 
 h2
 {
 	display : inline-block;
 	font-size : 35px;
+	font-family : Righteous;
 	width : 100%;
 	text-align : center;
 	vertical-align : top;
@@ -41,7 +51,8 @@ p, em
 {
 	text-align : justify;
 	margin : 15px;
-	font-size : 15px;
+	margin-top : 35px;
+	font-size : 20px;
 	font-style: normal;
 }
 
@@ -50,8 +61,10 @@ iframe
 	display : block;
 	border-radius: 25px;
 	margin : auto;
-	margin-top : 25px;
+	margin-top : 50px;
 	border : none;
+	width : 95%; 
+	height : 80px;
 }
 
 button
@@ -77,17 +90,19 @@ button:hover
 .section article div
 {
 	margin : 25px 0 25px 0;
-	background-color : rgb(10, 10, 10);
+	background-color : rgb(40, 40, 40);
 	border-radius : 15px;
-	width : 75%;
+	width : 95%;
+	height : 150px;
 	margin : auto;
-	margin-top : 25px;
+	margin-top : 50px;
 }
 
 .section article img
 {
-	width : 20%;
-	padding : 25px;
+	width : 13%;
+	padding-top : 25px;
+	padding-bottom : 25px;
 }
 
 .all
@@ -140,6 +155,7 @@ article ul li, article ul li p, article ul li s, article ul li button
 
 article ul
 {
+	margin-top : 35px;
 	padding-left: 0;
 }
 
@@ -148,31 +164,32 @@ article ul li
 	margin : 0px;
 }
 h4{
-	margin : 30px;
+	margin : 50px;
 	border-bottom : solid 2px white;
 	display : inline;
 	padding : 5px;
 	margin-left : 5%;
 }
-.section div input{
+
+.section .comment input{
 	margin : auto;
-	margin-top : 15px;
+	margin-top : 25px;
 	display : block;
 	height : 50px;
-	width : 90%;
+	width : 89.2%;
 	margin-bottom : 10px;
 	border : none;
 	border-radius : 2px;
 	padding-left : 10px;
 }
-.section div div{
+.section .comment div{
 	width : 90%;
 	margin : auto;
 	height : 100px;
 	margin-top : 2px;
 	background : rgb(12, 10, 10);
 }
-.section div div img{
+.section .comment div img{
 	height : 80px;
 	width : 80px;
 	border-radius : 10px;
@@ -183,4 +200,5 @@ h4{
 	.cover, article{ width:100%; }
 	.section article img{ width: 30%; }
 	.all img{width: 90%; height: auto;}
+	.top {height : 255%;}
 }
