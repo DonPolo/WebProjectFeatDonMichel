@@ -46,7 +46,16 @@ h2
 	margin : 15px 0px 15px 0px;
 }
 
-
+.comment div div{
+	display: inline-block;
+	vertical-align: top;
+}
+.comment div div h5{
+	margin: 10px 5px 5px 10px;
+}
+.comment div div p{
+	margin: 5px 5px 5px 10px;
+}
 p, em
 {
 	text-align : justify;
