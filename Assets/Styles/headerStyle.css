@@ -58,6 +58,9 @@ h1{
 header .divMenu > ul{
 	display : inline;
 	margin: 3px 0 0 125px;
+	position : relative;
+	left : 110px;
+	top : -28px;
 }
 header .divMenu > ul li{
 	display : inline;
