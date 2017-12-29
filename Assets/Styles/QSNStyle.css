@@ -1,8 +1,13 @@
 h2{
-	margin-top : 150px;
+	padding-top: 30px;
 	font-family : Righteous;
 	font-size : 45px;
 	text-align : center;
+}
+
+article{
+	margin-top: 70px;
+	background-image: url("../Images/background.png");
 }
 
 p:first-child{
@@ -22,27 +27,5 @@ p{
 }
 
 p:last-child{
-	margin-bottom : 60px;
-}
-
-.back{
-	z-index : -10;
-	position: absolute;
-	top: 70px;
-	left:0;
-	bottom: 0;
-	width : 100%;
-	height : 110%;
-}
-
-@media screen and (max-width:950px){
-	.back{height : 150%}
-}
-
-@media screen and (max-width:750px){
-	.back{height : 180%}
-}
-
-@media screen and (max-width:550px){
-	.back{height : 200%}
+	padding-bottom : 60px;
 }
