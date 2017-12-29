@@ -13,6 +13,7 @@ header{
 	background : rgb(10, 10, 10);
 	z-index: 10;
 }
+
 header a{
 	color : inherit;
 	text-decoration: none;
@@ -52,25 +53,26 @@ h1{
 	font-size : 40px;
 	font-family: 'Righteous', cursive;
 }
+header .divMenu{
+	position: absolute;
+	top: 0; left: 0; right: 0;
+	height: 70px;
+}
 .fa.iconMenu, .fa.iconClose{
 	display : none;
 }
 header .divMenu > ul{
-	display : inline;
-	margin: 3px 0 0 125px;
-	position : relative;
-	left : 110px;
-	top : -28px;
+	display : inline-block;
+	margin: 25px 110px 0 235px;
 }
 header .divMenu > ul li{
 	display : inline;
-	padding : 23px 50px 18px 50px;
+	padding : 20px 50px 18px 50px;
 	transition : background 0.3s;
 	transition:color 0.2s;
 }
 header .divMenu > ul li:hover{
 	background : rgba(0,0,0,0.5);
-	padding-bottom : 24px;
 	border-bottom : solid 3px rgb(245,245,245);
 }
 header .divMenu > ul > li:hover ul{
@@ -83,28 +85,28 @@ header .divMenu > ul > li ul{
 	position: absolute;
 	top: 67px;
 	opacity: 0;
-	left: 0px;
-	right: 0;
+	width: 100%;
 	padding :0;
 	height: 0;
+	left: 0;
 	transform: scale(0,1);
 	text-align: center;
 	z-index : -5;
 	transition : opacity 0.3s, height 0.3s;
 }
-header ul li ul li{
+header .divMenu > ul > li ul li{
 	display: inline-block;
 	width: 33%;
 	padding: 10px 0 10px 0;
 	color : rgb(245,245,245);
 }
-header ul li ul li:hover{
+header .divMenu > ul > li ul li:hover{
 	color: rgb(235,130,0);
 	background: rgba(25,25,25,0.5);
 	padding-bottom : 10px;
 	border-bottom : none;
 }
-header ul li ul a{
+header .divMenu > ul > li ul a{
 	display: inline-block;
 	width: 100%;
 	height: 100%;
