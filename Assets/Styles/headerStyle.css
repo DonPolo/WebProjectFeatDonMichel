@@ -63,7 +63,7 @@ header .divMenu{
 }
 header .divMenu > ul{
 	display : inline-block;
-	margin: 25px 110px 0 235px;
+	margin: 26px 110px 0 235px;
 }
 header .divMenu > ul li{
 	display : inline;
